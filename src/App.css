@@ -1,0 +1,70 @@
+/*#B87333*/
+/*#008080*/
+
+body {
+  font-family: "Courier New", Courier, monospace;
+  width: 75%;
+  margin: 0 auto;
+  background-color: #fffff0;
+}
+
+h2 {
+  font-size: 2rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 15px auto auto auto;
+}
+
+.todoListItem {
+  cursor: pointer;
+  width: 50%;
+  display: grid;
+  justify-content: center;
+  margin: 20px auto 5px auto;
+  & p {
+    margin: 0;
+  }
+}
+
+.deleteButton {
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.strikedListItem {
+  text-decoration: line-through;
+}
+
+.createInput {
+  font-family: "Courier New", Courier, monospace;
+}
+
+.inputContainer,
+.noTodos {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 30px auto auto auto;
+}
+
+.inputButton {
+  border: 1px solid black;
+  background: #b87333;
+  color: #fff;
+  height: 40px;
+  border-radius: 5px;
+  margin-left: 5px;
+  font-family: "Courier New", Courier, monospace;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  &:hover {
+    background-color: #905a28;
+    color: #fff;
+  }
+  & p {
+    margin-left: 5px;
+    font-size: 1.2em;
+  }
+}
