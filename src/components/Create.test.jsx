@@ -9,6 +9,7 @@ it("Adds a new item", () => {
   const createButton = screen.queryAllByTestId("createButton");
   const onClick = jest.fn();
 
-  fireEvent.click(createButton);
   expect(createInput.value).toEqual("Test item");
+
+  fireEvent.click(createButton);
 });

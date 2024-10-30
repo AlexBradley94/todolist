@@ -19,7 +19,7 @@ h2 {
 .todoListItem {
   cursor: pointer;
   width: 50%;
-  display: grid;
+  display: flex;
   justify-content: center;
   margin: 20px auto 5px auto;
   & p {
@@ -52,7 +52,6 @@ h2 {
   border: 1px solid black;
   background: #b87333;
   color: #fff;
-  height: 40px;
   border-radius: 5px;
   margin-left: 5px;
   font-family: "Courier New", Courier, monospace;

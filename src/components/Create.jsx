@@ -1,6 +1,7 @@
 import { useState } from "react";
 import axios from "axios";
 import AddTaskIcon from "@mui/icons-material/AddTask";
+import { TextField } from "@mui/material";
 
 function Create() {
   const [task, setTask] = useState();
@@ -14,7 +15,7 @@ function Create() {
 
   return (
     <div className="inputContainer">
-      <input
+      <TextField
         className="createInput"
         data-testid="createInput"
         type="text"
